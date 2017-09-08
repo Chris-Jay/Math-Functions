@@ -1,0 +1,18 @@
+<html>
+  <head></head>
+<body>
+  <script>
+    function deathNote(){
+var death = Math.floor(Math.random()*4);
+document.getElementsByClassName('stem')[death].innerHTML = "XXXX";
+}
+}
+  </script>
+  <p class="stem">Donald Trump</p>
+<p class="stem">Hitler</p>
+<p class="stem">Kim Jung Un</p>
+<p class="stem">Vladimir Putin</p>
+
+<button onclick="deathNote()">Random Death</button>
+</body>
+</html>
