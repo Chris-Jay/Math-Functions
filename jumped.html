@@ -1,0 +1,15 @@
+<html>
+  <head></head>
+<body>
+  <script>
+    function show(){
+var brian = document.getElementById('fox').innerHTML;
+document.getElementById('placeholder').innerHTML = brian;
+}
+
+  </script>
+  <span>the quick brown <span id="fox">fox</span> jumped over the lazy dog</span>
+<p id="placeholder"></p>
+<button onclick="show()">Who jumped?</button>
+</body>
+</html>
