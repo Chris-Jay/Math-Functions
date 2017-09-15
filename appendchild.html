@@ -1,0 +1,22 @@
+<html>
+  <head></head>
+<body>
+  <script>
+    function addAnother(){
+      var tony = document.createElement('li');
+      var samiyah = document.createTextNode('turkey');
+      tony.appendChild(samiyah);
+      var brandon = document.getElementsByTagName('ul')[0];
+      brandon.appendChild(tony);
+    }
+  </script>
+  <button onclick="addAnother()">
+    Click Here
+  </button>
+<ul>
+  <li>chicken</li>
+  <li>duck</li>
+  <li>goose</li>
+</ul>
+</body>
+</html>
