@@ -1,0 +1,19 @@
+<html>
+  <head></head>
+<body>
+  <h1 id="sumHere"></h1>
+  <script>
+function addNumbers(){
+var num1= document.getElementById('number1').value;
+var num1 = parseInt(num1);
+var num2 = document.getElementById('number2').value;
+var num2 = parseInt(num2);
+var dakine = num1 + num2;
+document.getElementById('sumHere').innerHTML = dakine;
+}
+  </script>
+  <input type="number"id="number1">
+<input type="number"id="number2">
+<button onclick="addNumbers()">Add Two Numbers</button>
+</body>
+</html>
