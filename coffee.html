@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <style>
+      
+    </style>
+    <script>
+      function coffeeOn(){
+        document.getElementById('description').style.visibility= "visible";
+        document.getElementById('coffee').style.transform="rotate(-45deg)"
+      }
+      function coffeeIn(){
+        document.getElementById('description').style.visibility= "hidden";
+                document.getElementById('coffee').style.transform="rotate(0deg)"
+      }
+    </script>
+  </head>
+  <body>
+    <img src="https://media.giphy.com/media/10sKNgit3jiU2A/giphy.gif" width='40%' id='coffee' onmouseover= "coffeeOn()" onmouseout="coffeeIn()">
+    <h2 id="description">Here is some coffee</h2>
+  </body>
+</html>
